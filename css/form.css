@@ -1,0 +1,9 @@
+.formarea input[type=text]{
+		background:none;
+		width:200px;
+		padding:5px;
+		border-radius:5px;
+		color:#000;
+		border:2px solid #000;
+		margin:3px;
+	}

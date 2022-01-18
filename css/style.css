@@ -1,0 +1,132 @@
+body{
+		background:#fff;
+		margin:0;
+	}
+	#mainarea{
+		width:1000px;
+		height:1020px;
+		background:none;
+		margin:0 auto;
+		border:1px double #000;
+	}
+	#toparea{
+		width:1000px;
+		height:150px;
+		background:#462066;
+		margin:0;	
+		float:left;
+	}
+	#logoarea{
+		width:150px;
+		height:150px;
+		background:url("../images/pm_mall.jpg");
+		margin:0;	
+		float:left;
+	}
+	#titlearea{
+		width:850px;
+		height:150px;
+		background:#FFF;
+		margin:0;	
+		padding:0;
+		float:right;
+		
+	}
+	#titlearea h1{
+		font:40px bold Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+		color:#685308;
+		text-align:center;
+		text-shadow:-1px 1px 2px #000;
+	}
+    #navarea{
+		width:1000px;
+		height:40px;
+		background:#462066;
+		margin:0;
+		float:left;
+        padding:0;
+	}
+	#navarea ul{
+		
+		list-style-type:none;
+		margin:0;
+		padding:0;
+		margin-left:1px;
+	}
+	#navarea ul li{
+		float:left;
+	}
+	#navarea ul li a:link, #navarea ul li a:visited{
+		color:#FFF;
+		background:#F20056;
+		padding:10px 46px;
+		text-decoration:none;
+		display:block;
+		border-bottom:solid 1px #000;
+		border-left:solid 1px #000;
+		margin: 0px;
+	}
+	#navarea ul li:last-child a:link, #navarea ul li:last-child a:visited{
+		border-right:solid 1px #000;
+	}
+	#navarea ul li a:hover{
+		background:#FFF;
+		color:#F20056;
+	}
+	#navarea ul li ul{
+		display:none;
+	}
+	#navarea ul li:hover ul{
+		display:block;
+	
+
+	}
+	#navarea ul li:hover ul li{
+		float:none;
+	
+
+	}
+	#navarea ul li:hover ul li a:link, #navarea ul li:hover ul li a:visited{
+		color:#FFF;
+		background:#F20056;
+		padding:10px 20px;
+		text-decoration:none;
+		display:block;
+	}
+	#navarea ul li:hover ul li a:hover{
+		background:#FFF;
+		color:#F20056;
+	}
+	#footerarea{
+		width:1000px;
+		height:100px;
+		background:none;
+		margin:10px 0 10px 0;
+		float:left;
+		padding:0px;
+	}
+	.footerbox{
+		width:190px;
+		height:200px;
+		background:#0e222f;
+		margin:0;
+		float:left;
+		padding:10px 30px;
+		color:#37779f;
+	}
+	.footerbox ul  {
+		margin:0;
+		padding:0px;
+		list-style-type:none;
+		
+		
+	}
+	.footerbox ul li {
+		color:#fff;
+	
+	}
+	
+
+	
+	
+		
